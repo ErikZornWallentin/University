@@ -1,0 +1,188 @@
+V "GNAT Lib v4.9"
+M P W=b
+A -mtune=generic
+A -march=i686
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_LOOPS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U hangman%b		hangman.adb		b6ac128e NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20140225151544 66457d31
+D a-comlin.ads		20140225151544 ea62afbc
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-flteio.ads		20070406091342 e18a47a0
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-numeri.ads		20080324174807 bb51c45a
+D a-nudira.ads		20100622172941 2fef2912
+D a-nudira.adb		20100622172941 e57ce22b
+D a-stream.ads		20140122164720 1a984740
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-suteio.ads		20090409150019 26d8e9aa
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-tiflio.ads		20090409150019 56fbda09
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D hangman.adb		20150219220833 45c4929f
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D system.ads		20121001083725 5fc8ae56
+D s-atocou.ads		20131010110730 cd7c94ca
+D s-atocou.adb		20131010110730 276bb8fc
+D s-conca2.ads		20140225151544 02a0d7d0
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-imguns.ads		20090409150019 9ff43cf7
+D s-maccod.ads		20110906094621 0fbb7bce
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-rannum.ads		20140124162202 5eb33f0a
+D s-rannum.adb		20130102110615 34372cc7
+D s-ransee.ads		20120130115052 01a57b33
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20131014135145 aedef97e
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-valint.ads		20090409150019 48a52a3f
+D s-valuns.ads		20090409150019 10a8ed3b
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 23|14r6 14r23 15r6 15r31 16r6 16r29 17r6 18r6 18r33 19r6 19r41
+. 20r6 39r29
+X 4 a-comlin.ads
+38K13*Command_Line 139e21 23|17w10
+X 7 a-flteio.ads
+20K13*Float_Text_IO[20|45] 23|16w10 16r33
+X 8 a-inteio.ads
+18K13*Integer_Text_IO[21|45] 23|15w10 15r35
+X 10 a-numeri.ads
+16K13*Numerics 32e17 23|20r10 39r33
+X 11 a-nudira.ads
+44k22*Discrete_Random 73e33 23|20w19 39r42
+48R9 Generator<40|58R9> 23|40r21[39]
+50V13 Random{23|38I10} 23|194s27[39] 288s39[39]
+53U14 Reset<40|95p14> 23|193s14[39] 287s26[39]
+X 12 a-nudira.adb
+51V16 Random[40|78]{23|38I10} 41|390b13[23|39]
+X 14 a-string.ads
+16K13*Strings 35e16 23|18r10 18r37 19r10 19r45
+X 16 a-strunb.ads
+76K21*Unbounded 489e26 23|18w18 18r45 19r18 19r53
+79R9*Unbounded_String<6|48R9> 473e14 23|29r34 32r15
+84V13*Length{natural} 23|198s24 297s36 306s32
+94V13*To_Unbounded_String{79R9} 23|32s35 181s20 181s47 181s74 181s101 181s128
+. 182s5 182s32 182s59 182s87 182s115 182s143 183s5 183s33 183s61 183s89 183s118
+. 183s147 184s5 184s34 184s63 184s92 184s121 184s151 185s5 185s35 185s65
+. 185s95 185s126 185s157 186s5 186s36 186s66 186s97 186s128 186s160 187s5
+. 187s37 187s69 187s101 187s134 187s167 188s5 188s38 188s71 188s105 188s140
+. 188s175 189s5 189s40 189s83 298s28
+100V13*To_String{string} 23|279s18
+111U14*Append 23|305s13
+127V14*"&"{79R9} 23|312s53
+139V13*Element{character} 23|203s19 210s33 223s32
+X 17 a-suteio.ads
+39K31*Text_IO 61e34 23|19w28 19r63
+55U14*Put_Line 23|312s9
+X 19 a-textio.ads
+49K13*Text_IO 471e16 23|14w10 14r27
+166U14*New_Line 23|237s9
+206U14*Get 23|284s13 304s13
+208U14*Put 23|212s29 224s25
+242U14*Put 23|233s17
+263U14*Put_Line 23|48s13 49s13 50s13 51s13 52s13 53s13 54s13 55s13 56s13
+. 57s13 58s13 59s13 61s13 62s13 63s13 64s13 65s13 66s13 67s13 68s13 69s13
+. 70s13 71s13 72s13 74s13 75s13 76s13 77s13 78s13 79s13 80s13 81s13 82s13
+. 83s13 84s13 85s13 87s13 88s13 89s13 90s13 91s13 92s13 93s13 94s13 95s13
+. 96s13 97s13 98s13 100s13 101s13 102s13 103s13 104s13 105s13 106s13 107s13
+. 108s13 109s13 110s13 111s13 113s13 114s13 115s13 116s13 117s13 118s13 119s13
+. 120s13 121s13 122s13 123s13 124s13 126s13 127s13 128s13 129s13 130s13 131s13
+. 132s13 133s13 134s13 135s13 136s13 137s13 139s13 140s13 141s13 142s13 143s13
+. 144s13 145s13 146s13 147s13 148s13 149s13 150s13 152s13 153s13 154s13 155s13
+. 156s13 157s13 158s13 159s13 160s13 161s13 162s13 163s13 165s13 166s13 167s13
+. 168s13 169s13 170s13 171s13 172s13 173s13 174s13 175s13 176s13 190s5 240s13
+. 243s17 246s17 249s17 252s17 255s17 258s17 261s17 264s17 267s17 270s17 278s9
+. 279s9 282s13 283s13 303s13 313s9 314s5
+X 23 hangman.adb
+22U11*Hangman 22b11 315l5 315t12
+24b5 flag{boolean} 213m29 225m25 232r16 235m13 296m17
+25i5 guessedCorrect{integer} 215m29 217r32 218m33 239r12 276m9
+26e5 ch{character} 203m13 210r28 212r33 223r27 224r29 284m17 285r16 300m17
+. 304m17 305r30 310r19 310r31
+29a5 dictionary(16|79R9) 181m5 198r32 203r28 297r44 312r55
+30i5 lengthOfElement{integer} 198m5 202r21 281r28 297m17
+32r5 guesses{16|79R9} 210r42 223r41 279r28 298m17 305m21 305r21 306r40
+33i5 lengthOfGuesses{integer} 205r16 206r29 208r28 293m17 306m13
+34i5 correctAmount{integer} 201m9 214m29 214r46 226m25 226r42 281r12 294m17
+35i5 incorrectAmount{integer} 241m13 241r32 242r17 245r20 248r20 251r20 254r20
+. 257r20 260r20 263r20 266r20 269r20 295m17
+38I10 Rand_Range<short_short_integer> 39r58 41r17 195r28 289r40
+39K13 Rand_Int[11|44] 40r12 193r5 194r18 287r17 288r30
+40r5 seed{11|48R9[39]} 193r20 194r34 287r32 288r46
+41i5 randomNum{38I10} 194m5 195r45 288m17 289r57
+42i5 value{integer} 195m5 198r43 203r39 289m17 297r55 312r66
+45U15 printHangman 45b15 45>29 178l9 178t21 244s17 247s17 250s17 253s17 256s17
+. 259s17 262s17 265s17 268s17 271s17
+45i29 result{integer} 47r12 60r15 73r15 86r15 99r15 112r15 125r15 138r15
+. 151r15 164r15
+202i13 i{integer} 203r47
+206i21 n{integer} 208r24 210r51 223r50
+X 24 interfac.ads
+63M9*Unsigned_32
+66M9*Unsigned_64
+X 40 s-rannum.ads
+58R9*Generator
+70V13*Random{24|63M9} 41|219i21
+71V13*Random{24|66M9} 41|219i21
+

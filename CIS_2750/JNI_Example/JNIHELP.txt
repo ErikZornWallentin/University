@@ -1,0 +1,10 @@
+STEPS TO LINK C to JAVA using JNI:
+1. javac JNI_HelloWorld.java
+   - This compiles the java code
+2. javah -jni JNI_Example
+   - This creates the javah file (don't touch the contents)
+3. type make in command prompt using the makefile given
+   - creates the -o and .so library
+4. on the command line type export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:.
+5. java JNI_HelloWorld 
+   -Runs the java program with c code!!

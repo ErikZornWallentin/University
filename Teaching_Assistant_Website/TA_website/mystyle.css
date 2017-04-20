@@ -1,0 +1,122 @@
+/* Mystyle.css */
+
+/* 
+ * It's not recommend you edit the code between the Start Position CSS and End Position CSS comments unless you really know what
+ * you're doing.  If you do, you could break the layout, and you could experience a lot of wacky behaviour.
+ * 
+ **/
+
+
+body { 
+	/*Start Position CSS*/
+	margin: 0;
+	padding: 1em; /* Adds a bit of a gap at top of page from container to end of webpage */
+	/*End Position CSS*/
+	
+}
+
+.header { 
+	
+	/*Start Position CSS*/
+	height: 150px; 	
+	border-bottom: 1px solid #3c7796; 
+	padding: 0;
+	/*End Position CSS*/	
+
+	background-image:url(logo.png);	
+	background-repeat: repeat-x;
+		
+	text-align: center;	
+	font: bold 3em serif;	
+}
+
+.maintext { 
+	
+	/*Start Position CSS*/
+	width: 640px;	
+	float: left;
+	margin: 0;
+	padding: 1em;	
+	border-left: 1px solid #3c7796;
+	/*End Position CSS*/	
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: green;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+.links { 
+
+	/*Start Position CSS*/
+	width: 150px;
+	float: left;
+	margin: 0;
+	padding: 1em;
+	bottom: 0px;
+	background-color: gray;
+	/*End Position CSS*/	
+
+}
+
+h1 {
+	font: italic;
+	margin: 0;
+	padding: 0;
+	color: red;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	color: gray;
+	font-weight: bold;
+	display: block;
+	font-size: 2em
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	color: blue;
+	font-weight: bold;
+}
+
+.tablecenter{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	/* Force to right with float: right;
+	   Force to left with float: left;
+	*/
+}
+
+
+.container { 
+	
+	/*Start Position CSS*/
+	width: 855px;
+	margin: auto;
+	text-align: left;
+	border: 1px solid #3c7796; 
+	/*End Position CSS*/
+}
+
+.footer {
+	clear: both;
+}

@@ -1,0 +1,32 @@
+/*************************A3.c****************************
+Student Name: Erik Zorn - Wallentin  Student Number: 0864583
+Date: Fri, March.14 / 2014              Course Name: CIS2500
+I have exclusive control over this submission via my password.
+By including this statement in this header comment, I certify that:
+     1) I have read and understood the University policy on academic integrity;
+     2) I have completed the Computing with Integrity Tutorial on Moodle; and
+     3) I have achieved at least 80% in the Computing with Integrity Self Test.
+I assert that this work is my own. I have appropriately acknowledged any and all material
+(data, images, ideas or words) that I have used, whether directly quoted or paraphrased.
+Furthermore, I certify that this assignment was prepared by me specifically for this course.
+****************************************************************************/
+
+References used in the assignment:
+
+www.google.ca
+Used the CIS2500 Ebook
+http://www.daniweb.com/software-development/c/threads/328416/reading-a-text-file-into-a-string-in-c --helped to read in strings from file
+http://www.tutorialspoint.com/c_standard_library/c_function_strtok.htm --shows how to use strtok
+http://www.dirac.org/linux/programming/tutorials/files_in_C/ --extra file information
+http://fresh2refresh.com/c/c-structures/ -- Structure
+http://cboard.cprogramming.com/c-programming/91459-structure-inside-structure.html
+http://stackoverflow.com/questions/6287479/how-to-use-a-struct-inside-another-struct
+http://www.paulgriffiths.net/program/c/srcs/curwormsrc.html --ncurses examples
+http://publib.boulder.ibm.com/infocenter/aix/v6r1/index.jsp?topic=%2Fcom.ibm.aix.basetechref%2Fdoc%2Fbasetrf2%2Fprintw.htm -ncurses library of info
+
+
+
+
+
+
+

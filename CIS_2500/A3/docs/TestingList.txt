@@ -1,0 +1,31 @@
+/*************************A3.c****************************
+Student Name: Erik Zorn - Wallentin  Student Number: 0864583
+Date: Fri, March.14 / 2014              Course Name: CIS2500
+I have exclusive control over this submission via my password.
+By including this statement in this header comment, I certify that:
+     1) I have read and understood the University policy on academic integrity;
+     2) I have completed the Computing with Integrity Tutorial on Moodle; and
+     3) I have achieved at least 80% in the Computing with Integrity Self Test.
+I assert that this work is my own. I have appropriately acknowledged any and all material
+(data, images, ideas or words) that I have used, whether directly quoted or paraphrased.
+Furthermore, I certify that this assignment was prepared by me specifically for this course.
+****************************************************************************/
+
+Testing done during the assignment:
+
+Check if the ncurses library is working...........tested and works the ncurses is displayed.
+Check if the "w,a,s,d" movement keys work.........tested and works the '@' moves.
+Prevent the hero from walking into walls..........tested and hero cannot move past '|' or '-'.
+Allow the hero to walk over staircases/doors......tested he can walk over them.
+Are the rooms correctly drawn?....................tested correctly drawn all 6 of them.
+Can the user quit the game at any time?...........tested and you can quit by pressing 'q'.
+Allow the hero to pick up items...................
+Allow the hero to view the picked up items........
+Prevent the hero from walking over monsters.......tested and does not allow hero to walk over.
+Error checking on walls...........................does not pass
+Error checking on item(p0,2)......................does not pass, no error check on 0
+Error checking on item greater than room..........pass, fixes coordinates into room.
+Error checking on item greater than room and room weird size,
+..................................................does not pass depending on room, items out of bounds.
+Can the hero die??................................tested and does not pass, he cannot die.
+Can monsters die??................................tested and does not pass, monsters cannot die.

@@ -1,0 +1,29 @@
+V "GNAT Lib v4.9"
+P ZX
+
+RN
+RV SPARK_05
+
+U i_stack%b		i_stack.adb		d2debca0 NE OO PK
+
+U i_stack%s		i_stack.ads		9437e276 EE NE OO PK
+
+D i_stack.ads		20150331162202 9437e276
+D i_stack.adb		20150331162129 46e95ed6
+D system.ads		20120723080122 5b069696
+X 1 i_stack.ads
+24K9*I_Stack 39E12 44l5 44e12 2|5b14 30l5 30t12
+27R9*Int_Stack 33r29 34r28 35r22 40c12 43e17 2|7r29 16r28 25r22
+30i4*Max_Size{integer} 39r40 2|9r19
+33U14*Push 33=19 33>40 2|7b14 13l8 13t12
+33r19 S{27R9} 2|7b19 9r10 10m10 10r20 11m10 11r17
+33i40 I{integer} 2|7b40 11r28
+34U14*Pop 34=18 34<39 2|16b14 22l8 22t11
+34r18 S{27R9} 2|16b18 18r10 19r15 19r22 20m10 20r20
+34i39 I{integer} 2|16b39 19m10
+35V13*Empty{boolean} 35>19 2|25b13 28l8 28t13
+35r19 S{27R9} 2|25b19 27r14
+39A12 Stack_Data_Type(integer)<integer> 42r16
+41i10*Size{integer} 2|9r12 10m12 10r22 11r19 18r12 19r24 20m12 20r22 27r16
+42a10*Data{39A12} 2|11m12 19r17
+

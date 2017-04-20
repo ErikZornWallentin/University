@@ -1,0 +1,40 @@
+****************************************************
+Erik Zorn-Wallentin	 0864583
+CIS*3110			 Assignment #2
+Fri, Feb. 27 / 2015
+****************************************************
+
+
+i. Does your simulator include switch overhead for the first ready state 
+   to running state transition? Explain.
+   
+-My program takes in the switch overhead and if I got to implementing it fully, it would
+have taken the first ready state and automatically switched it to a running state transition as it
+is the first one given.
+   
+ii. Does your simulator include switch overhead if a thread moves from ready state 
+    to running state and the CPU is idle? Explain.
+    
+-My program is setup to include switch overhead, if I got to implementing it fully it would
+have grabbed the next thread about to be used and always switch it from ready to running state.
+Also if the CPU is idle, which means it is waiting for the clock timer to reach the next arrival time it
+calculates that waiting time fully and gives the CPU utilization.
+    
+    
+iii. Does your simulator include switch overhead if a thread moves from running state 
+     to blocked state and the ready queue is empty? Explain.
+    
+-My program is setup to include switch overhead from running sate to block state and ready queue is empty,
+but I was not able to fully implement this. If it worked 100% it would have done as the question asks.
+     
+     
+iv. Does your simulation include switch overhead if a thread is interrupted 
+    (due to a time slice) and either the ready queue is empty or the thread has the highest priority? Explain.
+
+-My program is setup to include the switch overhead if a thread is interrupted but I was unable
+to complete this task 100%.
+
+
+
+
+

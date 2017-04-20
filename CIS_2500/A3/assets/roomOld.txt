@@ -1,0 +1,6 @@
+25X23 de2 dw18 dn2 ds8 g8,8 s7,7 m3,17 h5,5 p5,18 w6,19 
+25X25 de7 dw5 ds3 dn5 g8,8 m2,2 p3,3
+25X10 ds4 de6 dw8 g6,6  m2,2 p5,5 w7,7
+5X25   dn3 dw3 de2 ds3 g2,2 p3,3
+11X11 ds15 ds5 dn14 de8 dw7 p9,9 w8,8 m15,15 g15,3
+15X15 dn5 de5 dw2 s10,10 g6,6 m3,3

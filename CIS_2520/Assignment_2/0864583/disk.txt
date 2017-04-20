@@ -1,0 +1,15 @@
+1,ZOER 453,239,Returned Car,0
+1,ZVNB 964,43,Returned Car,0
+1,KIUO 509,98,Returned Car,0
+1,BNMS 647,111,New Car,0
+1,YOIP 150,145,New Car,0
+1,AHXY 601,189,New Car,0
+1,KLQW 307,202,Returned Car,0
+2,QMNB 210,10,Returned Car,443333
+2,KLMN 368,69,Returned Car,141015
+2,DFJI 137,100,Returned Car,141017
+2,AFGH 363,210,Returned Car,141018
+3,WERT 508,100,Returned Car,0
+3,DORI 389,500,Returned Car,0
+3,VORM 212,234,Returned Car,0
+3,ASDF 167,300,Returned Car,0
